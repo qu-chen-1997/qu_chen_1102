@@ -1,8 +1,6 @@
-/* 判断当前为PC端还是移动端 */
-@media screen and (max-width: 640px) {
-    div.pc_modal {
+  /* PC端*/
+  .phone_modal{
       display: none;
-    }
   }
   .container{
       min-width: 1250px;
@@ -247,62 +245,6 @@
     background: #4e6ef2;
     text-align: center;
 }
-/* .main .part2{
-    width:654px;
-    height:60px;
-    line-height: 60px;
-    position:absolute;
-    top:180px;
-    left:0;
-    right:-260px;
-    margin:auto;
-}
-
-.main .part2 .query{
-    width:468px;
-    height:56px;
-    position: relative;
-    top:-8px;
-     margin-top: -6px; 
-    line-height: 60px;
-    display: inline-block;
-    box-sizing: border-box;
-    border:2px solid gainsboro;
-     border-radius: 20%; 
-}
-.main .part2 .bd_left{
-    width:520px;
-    height:60px;
-    float:left;
-}
-.main .part2 .bd_right{
-    width:129px;
-    height:60px;
-    float:right;
-}
-.main .part2 .bd_left a{
-    width:40px;
-    height:40px;
-    line-height: 60px;
-    display: inline-block;
-}
-.main .part .bd_left a img{
-    width:100%;
-    height:100%;
-}
-.main .part2 .bd_right a{
-    width:120px;
-    height:60px;
-    line-height: 60px;
-    text-align: center;
-     margin-left: -5px;
-    margin-bottom: -15px; 
-    color: #fff;
-    border-radius: 5%;
-    background: #4e6ef2;
-    display: inline-block;
-    box-sizing: border-box;
-} */
 .main .part3{
     width:100%;
     height:50px;
@@ -419,3 +361,5 @@
     margin-right:15px;
     text-align: center;
 }
+
+
